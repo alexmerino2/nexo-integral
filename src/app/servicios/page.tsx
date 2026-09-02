@@ -21,7 +21,7 @@ export default function ServiciosPage() {
       <PageHero
         eyebrow="Servicios"
         title="Áreas en las que acompañamos"
-        description="Trabajamos con categorías amplias que se irán detallando a medida que sumemos profesionales y programas. La información específica de cada servicio se completará una vez confirmada por el equipo."
+        description="Reunimos profesionales y programas en distintas áreas de bienestar, educación y desarrollo, creando un espacio donde puedas encontrar alternativas y conexiones que hagan sentido para ti."
       >
         <Button href="/contacto" trailingIcon="arrow-right">
           Solicitar información
