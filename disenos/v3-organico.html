@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nexo Integral — V3 Orgánico inmersivo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#173A2E; --deep:#12324B; --blue:#2C7FB8; --green:#5FA544; --green-d:#4B8836; --orange:#E48A34;
+    --sand:#F7F4EC; --card:#FFFFFF; --body:#3E4A44; --muted:#6E7A72;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Inter,system-ui,sans-serif;color:var(--body);background:var(--sand);line-height:1.62}
+  h1,h2,h3{font-family:'Bricolage Grotesque',system-ui,sans-serif;color:var(--deep);line-height:1.08;font-weight:600;letter-spacing:-.02em}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 40px}
+  /* hero full-bleed */
+  .hero{position:relative;min-height:640px;display:flex;flex-direction:column;color:#fff;overflow:hidden}
+  .hero .bg{position:absolute;inset:0}
+  .hero .bg img{width:100%;height:100%;object-fit:cover}
+  .hero .bg:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,50,75,.55) 0%,rgba(23,58,46,.72) 60%,rgba(23,58,46,.9) 100%)}
+  .hero nav{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;padding:26px 40px;max-width:1180px;margin:0 auto;width:100%}
+  .brand{display:flex;align-items:center;gap:13px}
+  .brand img{height:44px;background:rgba(255,255,255,.95);border-radius:9px;padding:4px}
+  .brand b{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:18px;letter-spacing:.02em}
+  .brand span{display:block;font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;opacity:.8;margin-top:3px}
+  .navlinks{display:flex;gap:26px;font-size:14px}
+  .navlinks a{color:#fff;opacity:.9;text-decoration:none}
+  .btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:12px 24px;font-size:14px;font-weight:600;text-decoration:none}
+  .btn-solid{background:var(--orange);color:#fff}
+  .btn-glass{background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);backdrop-filter:blur(4px)}
+  .hero .inner{position:relative;z-index:2;flex:1;display:flex;flex-direction:column;justify-content:center;max-width:1180px;margin:0 auto;width:100%;padding:0 40px 90px}
+  .kick{font-size:12px;letter-spacing:.26em;text-transform:uppercase;color:#BFE3AE;font-weight:600;margin-bottom:22px}
+  .hero h1{font-size:64px;color:#fff;max-width:14ch;margin-bottom:20px}
+  .hero p{font-size:19px;max-width:34em;opacity:.95;margin-bottom:32px}
+  .hero .cta{display:flex;gap:14px}
+  /* wave */
+  .wave{position:relative;z-index:2;margin-top:-1px;line-height:0}
+  .wave svg{display:block;width:100%;height:70px;fill:var(--sand)}
+  /* overlap cards */
+  .paths{margin-top:-90px;position:relative;z-index:3}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .pc{background:var(--card);border-radius:22px;padding:32px;box-shadow:0 26px 60px -34px rgba(18,50,75,.45)}
+  .pc .ic{width:56px;height:56px;border-radius:18px;display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:18px}
+  .i1{background:#E4F0F7;color:var(--blue)} .i2{background:#E7F3DD;color:var(--green-d)} .i3{background:#FBEDDC;color:var(--orange)}
+  .pc h3{font-size:22px;margin-bottom:6px}
+  .pc .tag{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:12px}
+  .pc p{font-size:14px;color:var(--muted)}
+  /* vision */
+  .vision{padding:96px 0;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+  .vision .k{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--green-d);font-weight:600;margin-bottom:14px}
+  .vision h2{font-size:42px;margin-bottom:18px}
+  .vision p{font-size:16px;color:var(--muted);margin-bottom:14px}
+  .vision .ph{border-radius:28px;overflow:hidden;height:440px}
+  .vision .ph img{width:100%;height:100%;object-fit:cover}
+  .pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+  .pills span{background:#fff;border:1px solid #E4DCC9;border-radius:999px;padding:8px 15px;font-size:13px;color:var(--deep);font-weight:500}
+  footer{background:var(--ink);color:#CADDD2;padding:52px 0;font-size:13px;text-align:center}
+  .badge{position:fixed;left:18px;top:18px;background:#fff;color:var(--ink);font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding:8px 14px;border-radius:6px;z-index:9;box-shadow:0 4px 14px rgba(0,0,0,.2)}
+</style>
+</head>
+<body>
+<div class="badge">Versión 3 · Orgánico inmersivo</div>
+<section class="hero">
+  <div class="bg"><img src="file:///C:/Users/amerinoc/Desktop/Desarrollo/ClaudeCode/Sitio/public/images/bienestar.jpg" alt=""></div>
+  <nav>
+    <div class="brand"><img src="file:///C:/Users/amerinoc/Desktop/Desarrollo/ClaudeCode/Sitio/public/images/logo-nexo-integral.png" alt=""><div><b>NEXO INTEGRAL</b><span>Bienestar · Salud · Equilibrio</span></div></div>
+    <div class="navlinks"><a>Nosotros</a><a>Servicios</a><a>Personas</a><a>Organizaciones</a><a>Equipo</a><a>Contacto</a></div>
+    <a class="btn btn-glass">Agenda / Contáctanos</a>
+  </nav>
+  <div class="inner">
+    <div class="kick">Bienestar · Salud · Equilibrio</div>
+    <h1>El bienestar crece cuando estamos conectados</h1>
+    <p>Conectamos personas, bienestar y desarrollo. Una mirada integral para acompañar a personas y organizaciones.</p>
+    <div class="cta"><a class="btn btn-solid">Conoce nuestros servicios →</a><a class="btn btn-glass">Contáctanos</a></div>
+  </div>
+  <div class="wave"><svg viewBox="0 0 1440 70" preserveAspectRatio="none"><path d="M0,40 C240,80 480,0 720,20 C960,40 1200,80 1440,36 L1440,70 L0,70 Z"/></svg></div>
+</section>
+
+<div class="wrap">
+  <section class="paths">
+    <div class="grid3">
+      <div class="pc"><div class="ic i1">◐</div><h3>Personas</h3><div class="tag">Salud mental · Psicología · Bienestar</div><p>Acompañamiento profesional y espacios para el bienestar y el desarrollo personal.</p></div>
+      <div class="pc"><div class="ic i2">▣</div><h3>Organizaciones</h3><div class="tag">Evaluación · Capacitación · Bienestar</div><p>Programas para el desarrollo de personas y equipos en empresas e instituciones.</p></div>
+      <div class="pc"><div class="ic i3">✦</div><h3>Educación</h3><div class="tag">Talleres · Formación · Desarrollo</div><p>Actividades educativas y programas de formación para acompañar el aprendizaje.</p></div>
+    </div>
+  </section>
+
+  <section class="vision">
+    <div>
+      <div class="k">Nuestra forma de entender el bienestar</div>
+      <h2>Más que atención, una mirada integral</h2>
+      <p>Nexo Integral nace desde la convicción de que el bienestar se construye considerando a las personas en toda su dimensión.</p>
+      <p>Buscamos generar conexiones entre salud, bienestar, aprendizaje y desarrollo.</p>
+      <div class="pills"><span>Salud</span><span>Bienestar</span><span>Desarrollo</span><span>Educación</span><span>Conexión</span></div>
+    </div>
+    <div class="ph"><img src="file:///C:/Users/amerinoc/Desktop/Desarrollo/ClaudeCode/Sitio/public/images/personas.jpg" alt=""></div>
+  </section>
+</div>
+
+<footer>© 2026 Nexo Integral — Bienestar · Salud · Equilibrio</footer>
+</body>
+</html>

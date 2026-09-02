@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────────────
+   Sistema de diseño de Nexo Integral
+   Paleta extraída del logo oficial:
+     · Azul oscuro  #1C3F5F  → color estructural / confianza
+     · Azul         #2C7FB8  → salud / tranquilidad
+     · Verde        #7DB85C  → crecimiento / equilibrio / bienestar
+     · Naranjo      #E48A34  → acento / energía / cercanía
+     · Fondos       blancos cálidos y tonos muy suaves
+   ───────────────────────────────────────────────────────────── */
+@theme {
+  /* Marca — dirección visual "Orgánico inmersivo" (verde primario) */
+  --color-ink: #12324b;
+  --color-ink-600: #1d4665;
+  --color-ink-400: #47637d;
+
+  --color-blue: #2c7fb8;
+  --color-blue-600: #256d9f;
+  --color-blue-100: #e4f0f7;
+
+  /* Verde como color primario */
+  --color-green: #5fa544;
+  --color-green-600: #4b8836;
+  --color-green-100: #e7f3dd;
+
+  --color-orange: #e48a34;
+  --color-orange-600: #cf7622;
+  --color-orange-100: #fbeddc;
+
+  /* Verde bosque — momentos oscuros (footer, CTA) */
+  --color-forest: #173a2e;
+  --color-forest-600: #1f4a3a;
+
+  /* Fondos cálidos */
+  --color-sand: #f7f4ec;
+  --color-sand-100: #f1eadd;
+  --color-sand-200: #e4dcc9;
+  --color-cloud: #ffffff;
+
+  /* Texto */
+  --color-body: #3e4a44;
+  --color-muted: #6e7a72;
+
+  /* Tipografía (las variables --font-* las inyecta next/font en layout.tsx) */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, sans-serif;
+  --font-display: var(--font-bricolage), var(--font-inter), ui-sans-serif,
+    system-ui, sans-serif;
+
+  /* Radios y sombras suaves */
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 1.75rem;
+  --shadow-soft: 0 1px 2px rgb(18 50 75 / 0.04),
+    0 12px 32px -12px rgb(18 50 75 / 0.16);
+  --shadow-card: 0 1px 3px rgb(18 50 75 / 0.06),
+    0 26px 60px -34px rgb(18 50 75 / 0.45);
+}
+
+/* ── Base ─────────────────────────────────────────────────────
+   Se declara dentro de @layer base para que las utilidades de
+   Tailwind (p. ej. `text-white` en títulos sobre fondos oscuros)
+   siempre ganen a estos estilos de elemento.
+   ─────────────────────────────────────────────────────────────*/
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-sand);
+    color: var(--color-body);
+    font-family: var(--font-sans);
+    line-height: 1.65;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    color: var(--color-ink);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Foco visible y accesible en toda la interfaz */
+  :where(a, button, input, textarea, select, summary, [tabindex]):focus-visible {
+    outline: 3px solid var(--color-blue);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  /* Ancla con offset para el header fijo */
+  :target {
+    scroll-margin-top: 6rem;
+  }
+}
+
+/* ── Animación de aparición (componente <Reveal />) ───────── */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition:
+      opacity 0.6s ease,
+      transform 0.6s ease;
+  }
+  .reveal[data-visible="true"] {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Utilidad: degradado sutil de marca para fondos de sección */
+.bg-brand-wash {
+  background-image:
+    radial-gradient(58rem 26rem at 88% -12%, var(--color-green-100), transparent 62%),
+    radial-gradient(46rem 24rem at -5% 108%, var(--color-blue-100), transparent 58%);
+}
+
+/* Velo degradado del hero inmersivo (azul → verde bosque) */
+.hero-veil {
+  background: linear-gradient(
+    180deg,
+    rgb(18 50 75 / 0.5) 0%,
+    rgb(23 58 46 / 0.68) 58%,
+    rgb(23 58 46 / 0.92) 100%
+  );
+}

@@ -1,0 +1,883 @@
+Sí. Lo que necesitas es un brief/prompt maestro, suficientemente completo para entregárselo a Claude, Gemini, Cursor, Lovable, Bolt, v0, Copilot u otra IA y que pueda entender el negocio, la marca y construir el sitio sin tener que preguntarte todo desde cero.
+
+Te dejo uno listo para copiar y pegar. He separado lo que está confirmado de lo que la IA deberá dejar preparado o considerar como contenido editable, para no inventar información de la empresa.
+
+PROMPT MAESTRO — SITIO WEB NEXO INTEGRAL
+
+Quiero que desarrolles un sitio web profesional, moderno, cálido y responsive para una empresa chilena llamada NEXO INTEGRAL.
+
+1. IDENTIDAD DE LA EMPRESA
+Nombre comercial
+
+NEXO INTEGRAL
+
+Concepto / slogan
+
+BIENESTAR · SALUD · EQUILIBRIO
+
+Razón social
+
+SERVICIOS INTEGRALES DE SALUD MENTAL, PSICOLOGÍA EN TODAS SUS AREAS, EDUCACIÓN EN GENERAL, CAPACITACIÓN, BIENESTAR, EVALUACION DE PERSONAS Y ORGANIZACIONES LIMITADA
+
+La razón social es información legal y NO debe utilizarse como nombre principal de la marca. Debe aparecer, si corresponde, en el footer o sección de información legal.
+
+País
+
+Chile
+
+Naturaleza de la empresa
+
+La empresa desarrolla actividades relacionadas con:
+
+Salud mental.
+Psicología.
+Bienestar.
+Educación.
+Capacitación.
+Evaluación de personas.
+Evaluación de organizaciones.
+Servicios profesionales y técnicos.
+Desarrollo de personas y organizaciones.
+
+La marca debe tener suficiente amplitud para que en el futuro pueda incorporar nuevos profesionales, servicios y líneas de negocio.
+
+2. LOGO
+
+Existe un logo oficial de NEXO INTEGRAL, que debe utilizarse como referencia visual principal.
+
+El logo contiene:
+
+Una representación abstracta de personas conectadas.
+Elementos vegetales/hojas.
+Formas que representan crecimiento y conexión.
+Colores azul, verde y naranjo.
+La palabra NEXO en azul oscuro.
+La palabra INTEGRAL en azul.
+El texto:
+BIENESTAR · SALUD · EQUILIBRIO
+
+El símbolo transmite:
+
+conexión;
+personas;
+crecimiento;
+bienestar;
+equilibrio;
+diversidad;
+integración;
+desarrollo.
+
+No rediseñar el logo.
+
+Utilizar el logo proporcionado como activo oficial de la marca.
+
+El sitio debe tomar los colores del logo como base para generar la identidad visual.
+
+3. CONCEPTO DE MARCA
+
+Nexo Integral no debe percibirse simplemente como una consulta psicológica.
+
+La marca debe transmitir una visión integral de las personas y las organizaciones.
+
+La idea central es:
+
+Conectar bienestar, salud, desarrollo y equilibrio para acompañar a personas y organizaciones.
+
+El concepto de "Nexo" representa la conexión:
+
+Persona ↔ Persona
+Persona ↔ Bienestar
+Persona ↔ Entorno
+Persona ↔ Organización
+Organización ↔ Personas
+
+"Integral" representa una mirada amplia, donde diferentes disciplinas y servicios pueden trabajar conjuntamente.
+
+4. OBJETIVO DEL SITIO WEB
+
+El sitio debe:
+
+Presentar profesionalmente la marca.
+Explicar qué es Nexo Integral.
+Mostrar claramente sus servicios.
+Diferenciar servicios para personas y organizaciones.
+Transmitir confianza y profesionalismo.
+Ser cercano y humano.
+Facilitar el contacto.
+Preparar la plataforma para incorporar nuevos profesionales y servicios en el futuro.
+Permitir eventualmente implementar agenda/reserva de horas.
+Ser fácilmente encontrable en Google.
+Funcionar perfectamente en celulares, tablets y computadores.
+5. PÚBLICO OBJETIVO
+
+El sitio debe contemplar al menos dos grandes tipos de usuarios.
+
+A. PERSONAS
+
+Personas que buscan:
+
+atención psicológica;
+apoyo en salud mental;
+orientación;
+bienestar;
+acompañamiento;
+desarrollo personal;
+evaluación;
+talleres.
+
+No asumir patologías ni hacer promesas médicas.
+
+El lenguaje debe ser:
+
+humano + profesional + cercano + respetuoso.
+
+B. ORGANIZACIONES
+
+Empresas, instituciones, colegios y organizaciones que puedan requerir:
+
+capacitación;
+evaluación;
+bienestar organizacional;
+evaluación de personas;
+desarrollo de equipos;
+programas de bienestar;
+talleres;
+intervenciones;
+servicios profesionales.
+
+Esta área debe tener una presentación suficientemente profesional para que Nexo Integral pueda trabajar con empresas e instituciones.
+
+6. ESTRUCTURA DEL SITIO
+
+Crear una arquitectura clara.
+
+Menú principal
+
+Inicio
+
+Nosotros
+
+Servicios
+
+Personas
+
+Organizaciones
+
+Equipo
+
+Contacto
+
+Y un botón destacado:
+
+AGENDA / CONTÁCTANOS
+
+7. HOME / PÁGINA DE INICIO
+
+La página principal debe ser visualmente atractiva.
+
+HERO
+
+Utilizar el logo y una imagen o composición visual relacionada con:
+
+bienestar;
+conexión humana;
+crecimiento;
+equilibrio;
+acompañamiento.
+
+Texto sugerido:
+
+NEXO INTEGRAL
+
+Bienestar · Salud · Equilibrio
+
+Conectamos personas, bienestar y desarrollo.
+
+Texto secundario:
+
+En Nexo Integral creemos en una mirada integral de las personas y las organizaciones, creando espacios de acompañamiento, aprendizaje y desarrollo.
+
+Botones:
+
+Conoce nuestros servicios
+
+Contáctanos
+
+No sobrecargar el hero.
+
+8. SECCIÓN "NEXO INTEGRAL"
+
+Crear una sección explicando el concepto de la marca.
+
+Título:
+
+Más que atención, una mirada integral
+
+Texto orientativo:
+
+Nexo Integral nace desde la convicción de que el bienestar se construye considerando a las personas en toda su dimensión. Por eso buscamos generar conexiones entre salud, bienestar, aprendizaje y desarrollo.
+
+La redacción definitiva debe poder editarse fácilmente.
+
+Agregar elementos visuales que representen:
+
+Salud
+
+Bienestar
+
+Desarrollo
+
+Educación
+
+Conexión
+
+9. SERVICIOS
+
+Crear una sección de servicios mediante tarjetas visuales.
+
+Inicialmente utilizar categorías, evitando inventar tratamientos específicos que la empresa no haya confirmado.
+
+Salud mental y Psicología
+
+Acompañamiento profesional relacionado con salud mental y psicología.
+
+Bienestar
+
+Servicios y actividades orientadas al bienestar personal y/o colectivo.
+
+Educación
+
+Actividades educativas, talleres y programas de formación.
+
+Capacitación
+
+Capacitación y desarrollo de competencias para personas y organizaciones.
+
+Evaluación de Personas
+
+Procesos de evaluación según los servicios profesionales que Nexo Integral defina.
+
+Evaluación de Organizaciones
+
+Servicios relacionados con el análisis y evaluación de organizaciones.
+
+Cada tarjeta debe tener:
+
+icono;
+título;
+breve descripción;
+botón "Conocer más".
+10. ÁREA PERSONAS
+
+Crear una página específica:
+
+Para personas
+
+Mensaje central:
+
+Tu bienestar también merece un espacio.
+
+Explicar de forma cercana que Nexo Integral busca ofrecer acompañamiento profesional y espacios orientados al bienestar y desarrollo personal.
+
+Mostrar servicios disponibles.
+
+Agregar CTA:
+
+Quiero solicitar información
+
+Agendar atención
+
+IMPORTANTE:
+
+No inventar profesionales, especialidades, precios, horarios ni modalidades hasta que esa información sea proporcionada.
+
+11. ÁREA ORGANIZACIONES
+
+Crear una página:
+
+Para organizaciones
+
+Mensaje:
+
+Personas que crecen. Organizaciones que avanzan.
+
+Presentar la posibilidad de trabajar con:
+
+empresas;
+organizaciones;
+instituciones;
+establecimientos educacionales.
+
+Servicios potenciales:
+
+capacitación;
+evaluación;
+bienestar;
+talleres;
+desarrollo de personas;
+desarrollo organizacional.
+
+CTA:
+
+Solicitar una propuesta
+
+Hablar con Nexo Integral
+
+12. EQUIPO
+
+Crear una página preparada para mostrar profesionales.
+
+Cada profesional debe poder tener:
+
+fotografía;
+nombre;
+profesión;
+especialidad;
+descripción;
+formación;
+servicios;
+botón para contactar/agendar.
+
+Por ahora NO inventar nombres ni profesionales.
+
+Crear datos de ejemplo claramente marcados como contenido temporal o dejar componentes preparados para agregar profesionales posteriormente.
+
+La arquitectura debe permitir agregar fácilmente más integrantes.
+
+13. CONTACTO
+
+Crear una sección de contacto clara.
+
+Debe contemplar:
+
+Formulario
+Nombre
+Correo
+Teléfono
+Motivo de contacto
+Mensaje
+
+Botón:
+
+Enviar consulta
+
+También dejar preparada la integración con:
+
+WhatsApp;
+correo electrónico;
+redes sociales;
+Google Maps si posteriormente se proporciona una dirección.
+
+No inventar números telefónicos, correos ni direcciones.
+
+14. AGENDA
+
+El sitio debe estar preparado para incorporar un sistema de reserva.
+
+Idealmente:
+
+Seleccionar servicio → seleccionar profesional → seleccionar fecha → seleccionar hora → confirmar datos
+
+Pero si todavía no existe un sistema de agenda definido, implementar inicialmente un botón:
+
+Solicitar hora
+
+que dirija al mecanismo de contacto que posteriormente se configure.
+
+La arquitectura debe permitir integrar posteriormente sistemas externos de reserva.
+
+15. DISEÑO VISUAL
+
+El diseño debe inspirarse directamente en el logo.
+
+Personalidad visual
+
+Debe sentirse:
+
+profesional;
+moderno;
+limpio;
+humano;
+cálido;
+confiable;
+elegante;
+tranquilo;
+contemporáneo.
+
+Evitar:
+
+aspecto hospitalario;
+exceso de blanco clínico;
+diseño demasiado corporativo;
+colores estridentes;
+apariencia de plantilla genérica;
+exceso de animaciones.
+16. PALETA DE COLORES
+
+Extraer los colores del logo.
+
+Como orientación visual:
+
+Azul oscuro
+
+Color principal de confianza y profesionalismo.
+
+Azul
+
+Asociado a tranquilidad y salud.
+
+Verde
+
+Asociado a crecimiento, equilibrio y bienestar.
+
+Naranjo
+
+Utilizarlo como color de acento para transmitir energía y cercanía.
+
+Fondo
+
+Utilizar principalmente blancos, blancos cálidos y tonos muy suaves.
+
+No utilizar todos los colores simultáneamente en exceso.
+
+El azul debe ser el color estructural y el verde/naranjo funcionar como acentos.
+
+17. TIPOGRAFÍA
+
+Utilizar una tipografía moderna y altamente legible.
+
+Preferentemente una combinación como:
+
+Inter / Manrope / Nunito Sans / Montserrat
+
+Evitar tipografías excesivamente decorativas.
+
+Los títulos deben tener personalidad.
+
+Los textos deben ser muy fáciles de leer.
+
+18. ESTILO DE IMÁGENES
+
+Las imágenes deben representar:
+
+personas reales;
+diversidad;
+vínculos;
+acompañamiento;
+conversación;
+crecimiento;
+bienestar;
+colaboración.
+
+Evitar imágenes excesivamente artificiales de bancos de imágenes.
+
+No utilizar fotografías que transmitan:
+
+enfermedad;
+tristeza extrema;
+sufrimiento;
+hospitales;
+pacientes en situaciones dramáticas.
+
+La marca debe transmitir esperanza, acompañamiento y crecimiento.
+
+19. EXPERIENCIA DE USUARIO
+
+El usuario debe entender en pocos segundos:
+
+Qué es Nexo Integral.
+Qué servicios ofrece.
+Si atiende personas u organizaciones.
+Cómo contactar.
+Cómo solicitar atención.
+
+En celular debe existir un botón de contacto fácilmente accesible.
+
+Considerar un botón flotante de WhatsApp cuando se configure el número.
+
+20. RESPONSIVE DESIGN
+
+El sitio debe diseñarse:
+
+Mobile First
+
+Debe funcionar correctamente en:
+
+teléfonos;
+tablets;
+notebooks;
+monitores grandes.
+
+No deben existir:
+
+textos cortados;
+elementos superpuestos;
+scroll horizontal;
+botones pequeños;
+imágenes deformadas.
+21. ANIMACIONES
+
+Utilizar animaciones sutiles.
+
+Por ejemplo:
+
+aparición suave de secciones;
+hover en tarjetas;
+pequeñas transiciones;
+desplazamientos suaves.
+
+No utilizar animaciones excesivas.
+
+La página debe sentirse profesional y rápida.
+
+22. SEO
+
+Preparar el sitio para posicionamiento en Google.
+
+Título:
+
+Nexo Integral | Bienestar · Salud · Equilibrio
+
+Crear:
+
+meta description;
+Open Graph;
+favicon;
+sitemap;
+robots.txt;
+URLs amigables;
+encabezados H1/H2/H3 correctamente estructurados;
+Schema.org cuando corresponda.
+
+Considerar búsquedas relacionadas con:
+
+psicología;
+salud mental;
+bienestar;
+capacitación;
+evaluación;
+bienestar organizacional;
+servicios psicológicos;
+desarrollo personal;
+desarrollo organizacional.
+
+No realizar afirmaciones médicas que no estén respaldadas.
+
+23. ACCESIBILIDAD
+
+Cumplir buenas prácticas de accesibilidad:
+
+contraste adecuado;
+textos alternativos;
+navegación mediante teclado;
+botones correctamente identificados;
+formularios accesibles;
+etiquetas ARIA cuando corresponda;
+tamaños de texto adecuados.
+24. PRIVACIDAD Y DATOS
+
+Como la empresa trabaja potencialmente con información relacionada con personas y salud mental, el sitio debe tratar los datos con especial cuidado.
+
+No solicitar información clínica sensible innecesaria mediante formularios públicos.
+
+El formulario de contacto debe solicitar únicamente la información necesaria.
+
+Preparar una sección:
+
+Política de Privacidad
+
+y otra:
+
+Términos y condiciones
+
+El contenido legal definitivo deberá ser revisado y proporcionado por la empresa/profesional correspondiente.
+
+No inventar textos legales como si fueran asesoría jurídica.
+
+25. FOOTER
+
+El footer debe incluir:
+
+NEXO INTEGRAL
+
+Bienestar · Salud · Equilibrio
+
+Links:
+
+Inicio
+Nosotros
+Servicios
+Personas
+Organizaciones
+Equipo
+Contacto
+
+Además:
+
+correo;
+teléfono;
+WhatsApp;
+redes sociales;
+ubicación, cuando sean proporcionados.
+
+En la parte inferior:
+
+© Nexo Integral — Todos los derechos reservados
+
+Y la razón social completa en información legal cuando corresponda.
+
+26. ESCALABILIDAD
+
+Este punto es MUY importante.
+
+No quiero una página estática difícil de modificar.
+
+La arquitectura debe permitir posteriormente agregar:
+
+profesionales;
+servicios;
+artículos;
+blog;
+talleres;
+cursos;
+eventos;
+agenda;
+pagos online;
+testimonios;
+preguntas frecuentes;
+recursos descargables;
+newsletter;
+área para empresas;
+área privada de usuarios si fuera necesario.
+
+El código debe estar organizado para facilitar estas futuras ampliaciones.
+
+27. TECNOLOGÍA
+
+Puedes elegir la tecnología más adecuada, pero prioriza:
+
+rendimiento;
+seguridad;
+SEO;
+mantenibilidad;
+escalabilidad;
+facilidad de despliegue.
+
+Una opción recomendada:
+
+Next.js + TypeScript + Tailwind CSS
+
+y componentes reutilizables.
+
+Si utilizas otra tecnología, explica brevemente por qué.
+
+No crear una arquitectura innecesariamente compleja.
+
+28. COMPONENTES
+
+Crear componentes reutilizables para:
+
+Navbar;
+Hero;
+botones;
+tarjetas;
+servicios;
+profesionales;
+testimonios;
+CTA;
+formulario;
+footer;
+FAQ;
+secciones generales.
+
+Mantener separación entre:
+
+contenido
+
+y
+
+presentación.
+
+Idealmente el contenido de servicios/profesionales debe estar estructurado en objetos/JSON/TypeScript para poder modificarlo fácilmente.
+
+29. CMS / ADMINISTRACIÓN FUTURA
+
+Dejar la arquitectura preparada para que posteriormente pueda incorporarse un CMS.
+
+La empresa eventualmente debería poder modificar:
+
+servicios;
+profesionales;
+textos;
+fotografías;
+artículos;
+horarios;
+información de contacto.
+
+No es obligatorio implementar un CMS ahora, pero la arquitectura no debe impedirlo.
+
+30. SEGURIDAD
+
+Implementar buenas prácticas:
+
+validación de formularios;
+sanitización de entradas;
+protección contra spam;
+variables sensibles mediante .env;
+nunca colocar API keys directamente en el frontend;
+HTTPS en producción;
+protección de endpoints.
+31. RENDIMIENTO
+
+Priorizar:
+
+carga rápida;
+imágenes optimizadas;
+lazy loading;
+formatos modernos de imágenes;
+código dividido cuando corresponda;
+evitar librerías innecesarias.
+
+El sitio debe sentirse rápido incluso desde un teléfono.
+
+32. CONTENIDO
+
+IMPORTANTE:
+
+NO INVENTES información real de la empresa.
+
+No inventar:
+
+psicólogos;
+profesionales;
+títulos académicos;
+direcciones;
+teléfonos;
+correos;
+precios;
+horarios;
+certificaciones;
+años de experiencia;
+testimonios;
+clientes;
+convenios;
+número de pacientes;
+resultados clínicos.
+
+Cuando falte información, utilizar:
+
+[POR DEFINIR]
+
+o contenido claramente identificable como placeholder.
+
+33. TONO DE COMUNICACIÓN
+
+Todo el sitio debe estar en español neutro.
+
+El tono debe ser:
+
+cercano + profesional + humano + confiable.
+
+No utilizar lenguaje excesivamente técnico.
+
+No sonar como una institución fría.
+
+No utilizar frases exageradas como:
+
+"Transformamos tu vida para siempre."
+
+Preferir:
+
+"Un espacio para acompañarte en tu proceso."
+
+34. IDEA CENTRAL DE LA HOME
+
+La experiencia ideal sería:
+
+NEXO INTEGRAL
+
+Bienestar · Salud · Equilibrio
+
+Conectamos personas, bienestar y desarrollo.
+
+↓
+
+Una mirada integral para personas y organizaciones.
+
+↓
+
+¿Cómo podemos ayudarte?
+
+Personas
+Salud mental · Psicología · Bienestar
+
+Organizaciones
+Evaluación · Capacitación · Bienestar
+
+Educación
+Talleres · Formación · Desarrollo
+
+↓
+
+Nuestra forma de entender el bienestar
+
+Una sección emocional y visual basada en el concepto de Nexo.
+
+↓
+
+Nuestros servicios
+
+↓
+
+Nuestro equipo
+
+↓
+
+Hablemos
+
+¿Quieres conocer nuestros servicios?
+
+Contáctanos
+
+35. RESULTADO ESPERADO
+
+Quiero que el resultado final parezca el sitio web de una empresa profesional de salud, bienestar y desarrollo que está preparada para crecer, no una página personal ni una plantilla genérica de psicología.
+
+Debe sentirse como una marca que podría trabajar tanto con:
+
+una persona que busca apoyo psicológico
+
+como con:
+
+una empresa que necesita un programa de bienestar o capacitación.
+
+La identidad debe girar siempre alrededor del concepto:
+
+NEXO
+
+Conexión · Personas · Bienestar · Salud · Desarrollo · Equilibrio
+
+INSTRUCCIÓN FINAL PARA LA IA
+
+No te limites a generar una landing page.
+
+Construye una primera versión funcional y profesional del sitio completo, con arquitectura escalable y componentes reutilizables.
+
+Antes de implementar funcionalidades que requieran información que no ha sido proporcionada, utiliza placeholders claramente identificados.
+
+Prioriza primero:
+
+identidad visual;
+estructura;
+experiencia de usuario;
+responsive;
+accesibilidad;
+SEO;
+rendimiento;
+escalabilidad.
+
+Utiliza el logo proporcionado como referencia visual oficial de Nexo Integral y respeta su concepto y paleta.
+
+No rediseñes el logo.
+
+El resultado debe estar listo para posteriormente incorporar la información real de profesionales, servicios, contacto, agenda y redes sociales.
