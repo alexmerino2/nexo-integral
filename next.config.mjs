@@ -1,18 +1,28 @@
 /** @type {import('next').NextConfig} */
+
+const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
+
 const nextConfig = {
-  // Sitio 100% estático: `next build` genera HTML/CSS/JS en la carpeta `out/`.
-  // Se puede publicar en cualquier hosting estático (Netlify, GitHub Pages,
-  // Vercel, un bucket, Apache/Nginx, etc.) sin necesidad de Node en producción.
+  // GitHub Pages publica el sitio dentro de /nexo-integral/
+  ...(isGitHubPages && {
+    basePath: "/nexo-integral",
+    assetPrefix: "/nexo-integral/",
+  }),
+
+  // Sitio 100% estático
   output: "export",
+
   reactStrictMode: true,
   poweredByHeader: false,
   trailingSlash: true,
+
   images: {
-    // La optimización de imágenes de Next requiere servidor; en export se sirven tal cual.
     unoptimized: true,
   },
-  // El linter se ejecuta con `npm run lint`; no bloquea el build.
-  eslint: { ignoreDuringBuilds: true },
+
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
