@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { site } from "@/content/site";
+import { withBasePath } from "@/lib/basePath";
 
-const baseUrl = site.url.replace(/\/$/, "");
+// Origen del sitio + basePath (p. ej. "https://alexmerino2.github.io/nexo-integral").
+// En local queda igual que site.url.
+const baseUrl = withBasePath(site.url);
 
 /**
  * Genera metadata coherente para cada página.
@@ -19,6 +22,8 @@ export function pageMetadata({
   image?: string;
 }): Metadata {
   const url = `${baseUrl}${path}`;
+  // `image` se deja como ruta relativa ("/images/..."): Next la resuelve contra
+  // `metadataBase` (que YA incluye el basePath), así no hay que tocarla aquí.
   const fullTitle =
     path === "/" ? `${site.name} | ${site.slogan}` : `${title} | ${site.name}`;
 

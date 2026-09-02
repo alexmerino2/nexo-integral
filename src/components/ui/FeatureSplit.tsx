@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { Img as Image } from "@/components/ui/Img";
 import type { ReactNode } from "react";
 import { Container } from "./Container";
 import { Reveal } from "./Reveal";

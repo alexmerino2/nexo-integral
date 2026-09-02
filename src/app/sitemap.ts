@@ -1,10 +1,11 @@
 import type { MetadataRoute } from "next";
 import { site } from "@/content/site";
+import { withBasePath } from "@/lib/basePath";
 
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = site.url.replace(/\/$/, "");
+  const base = withBasePath(site.url);
   const now = new Date();
 
   const routes = [

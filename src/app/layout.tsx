@@ -5,7 +5,10 @@ import { Footer } from "@/components/layout/Footer";
 import { WhatsappFloat } from "@/components/layout/WhatsappFloat";
 import { site } from "@/content/site";
 import { organizationJsonLd } from "@/lib/seo";
+import { asset, withBasePath } from "@/lib/basePath";
 import "./globals.css";
+
+const logoIcon = asset(site.logo.src);
 
 const inter = Inter({
   subsets: ["latin"],
@@ -21,7 +24,7 @@ const bricolage = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(site.url),
+  metadataBase: new URL(withBasePath(site.url)),
   title: {
     default: `${site.name} | ${site.slogan}`,
     template: `%s | ${site.name}`,
@@ -41,8 +44,8 @@ export const metadata: Metadata = {
     "Chile",
   ],
   icons: {
-    icon: [{ url: "/images/logo-nexo-integral.png", type: "image/png" }],
-    apple: [{ url: "/images/logo-nexo-integral.png" }],
+    icon: [{ url: logoIcon, type: "image/png" }],
+    apple: [{ url: logoIcon }],
   },
   formatDetection: { telephone: false },
 };
